@@ -1,8 +1,13 @@
 import React from "react";
+import QuoteBox from "./QuoteBox";
 import "./style/RandomQuote.css";
 
 const RandomQuote = () => {
-  return <div className="random-quote">this is random-quotes-machine</div>;
+  return (
+    <div className="random-quote">
+      <QuoteBox />
+    </div>
+  );
 };
 
 export default RandomQuote;
