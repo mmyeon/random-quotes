@@ -1,0 +1,40 @@
+.button-wrapper {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.sns-icons {
+  display: flex;
+  font-size: 1.1rem;
+}
+
+.sns-icons > .icon-wrapper {
+  color: white;
+  margin-right: 5px;
+  background: #fb6964;
+  height: 37px;
+  width: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sns-icons > .icon-wrapper:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.new-quote {
+  background: #fb6964;
+  padding: 10px 15px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.new-quote:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
