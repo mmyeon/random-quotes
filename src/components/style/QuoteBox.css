@@ -1,0 +1,6 @@
+.quote-box {
+  box-sizing: border-box;
+  width: 550px;
+  background: #ffffff;
+  padding: 48px 55px;
+}

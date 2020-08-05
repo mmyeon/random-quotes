@@ -1,0 +1,17 @@
+.text-wrapper {
+  color: #fb6964;
+  text-align: end;
+}
+
+.text {
+  font-size: 1.9rem;
+  text-align: center;
+}
+
+.text > .quote-icon {
+  margin-right: 10px;
+  font-size: 27px;
+}
+
+.author {
+}
