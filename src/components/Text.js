@@ -1,11 +1,7 @@
 import React from "react";
 import "./style/TextWrapper.css";
 
-const TextWrapper = (props) => {
-  const quote = props.quote;
-  const author = props.author;
-  const backgroundColor = props.backgroundColor;
-
+const TextWrapper = ({ quote, author, backgroundColor }) => {
   return (
     <div className="text-wrapper" style={{ color: backgroundColor }}>
       <div className="text">

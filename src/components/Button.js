@@ -1,10 +1,7 @@
 import React from "react";
 import "./style/ButtonWrapper.css";
 
-const ButtonWrapper = (props) => {
-  const handleClick = props.handleClick;
-  const backgroundColor = props.backgroundColor;
-
+const ButtonWrapper = ({ handleClick, backgroundColor }) => {
   function buttonClick() {
     handleClick();
   }
