@@ -1,5 +1,5 @@
 import React from "react";
-import RandomQuote from "./components/RandomQuote";
+import RandomQuote from "./containers/RandomQuote";
 import "./App.css";
 
 function App() {

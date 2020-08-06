@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import QuoteBox from "./QuoteBox";
-import "./style/RandomQuote.css";
+import QuoteBox from "../components/QuoteBox";
+import "../styles/RandomQuote.css";
 
 const RandomQuote = () => {
   const req = new XMLHttpRequest();
