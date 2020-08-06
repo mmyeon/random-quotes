@@ -4,3 +4,9 @@
   background: #ffffff;
   padding: 40px 50px;
 }
+
+@media all and (max-width: 768px) {
+  .quote-box {
+    width: 66%;
+  }
+}
