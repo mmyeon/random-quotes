@@ -8,7 +8,7 @@ const TextWrapper = ({ quote, author, backgroundColor }) => {
         <i className="fas fa-quote-left quote-icon"></i>
         {quote}
       </div>
-      <span className="author">{author}</span>
+      <span className="author">- {author}</span>
     </div>
   );
 };
