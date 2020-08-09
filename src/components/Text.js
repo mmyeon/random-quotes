@@ -1,5 +1,5 @@
 import React from "react";
-import "./style/TextWrapper.css";
+import "../styles/TextWrapper.css";
 
 const TextWrapper = ({ quote, author, backgroundColor }) => {
   return (

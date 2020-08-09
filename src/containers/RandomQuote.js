@@ -36,6 +36,15 @@ const RandomQuote = () => {
     };
     getNewQuote(callback);
   }
+
+  // function getRandomBackgroundColor (){
+  //   let hue;
+  //   let saturation ="70%";
+  //   let lightness = "80%"
+  //   const color = {
+
+  //   }
+  // }
 };
 
 export default RandomQuote;

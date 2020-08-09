@@ -1,5 +1,5 @@
 import React from "react";
-import "./style/ButtonWrapper.css";
+import "../styles/ButtonWrapper.css";
 
 const ButtonWrapper = ({ handleClick, backgroundColor }) => {
   function buttonClick() {

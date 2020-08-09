@@ -1,5 +1,5 @@
 import React from "react";
-import "./style/QuoteBox.css";
+import "../styles/QuoteBox.css";
 import Text from "./Text";
 import Button from "./Button";
 
